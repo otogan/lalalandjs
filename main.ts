@@ -262,14 +262,12 @@ let prop: Sprite = null
 let hero: Sprite = null
 let car: Sprite = null
 let carDirection = ""
-let carSpeed = 0
+let carSpeed = 50
 let carControlOn = false
 let carLocation: tiles.Location = null
 setHouseRedProps()
 setHero(tiles.getTileLocation(7, 7))
 carLocation = tiles.getTileLocation(6, 12)
-carControlOn = false
-carSpeed = 50
 carDirection = "left"
 forever(function () {
     updateHeroControl()
