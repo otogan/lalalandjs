@@ -1,5 +1,6 @@
- 
+ # LalaLand
 
+A princess fantasy game.
 
 > Open this page at [https://otogan.github.io/lalalandjs/](https://otogan.github.io/lalalandjs/)
 
@@ -12,7 +13,7 @@ This repository can be added as an **extension** in MakeCode.
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/otogan/lalalandjs** and import
 
-## Edit this project
+## Edit this project (Online)
 
 To edit this repository in MakeCode.
 
@@ -24,3 +25,25 @@ To edit this repository in MakeCode.
 
 * for PXT/arcade
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+## Local development
+
+This requires [NodeJS](https://nodejs.org/) (`npm`).
+
+Install `pxt`.
+
+```
+npm install -g pxt
+```
+
+Set the target to download the editor tools.
+
+```
+pxt target arcade
+```
+
+Copy the extensions.
+
+```
+pxt install
+```
