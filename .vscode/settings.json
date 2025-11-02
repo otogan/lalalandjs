@@ -25,5 +25,12 @@
     "files.exclude": {
         "**/pxt_modules": true,
         "**/.pxt": true
-    }
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true
 }
